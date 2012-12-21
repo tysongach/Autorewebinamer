@@ -1,7 +1,16 @@
-Autorewebinamer
-===============
+# Autorewebinamer
 
 An Automator workflow and Finder service for renaming files so they're web-friendly.
+
+## What Does it Do?
+
+- Replaces spaces with dashes
+- Replaces underscores (_) with dashes
+- Replaces ampersands (&) with dashes
+- Replaces pound signs (#) with dashes
+- Replaces the common string of ’ - ’ with a single dash
+
+These swap-outs are what work for me, but I highly encourage you to pop open the workflow in Automator and adjust to your needs.
 
 ## Installation
 
