@@ -1,20 +1,20 @@
 # Autorewebinamer
 
-An Automator workflow and Finder service for renaming files so they're web-friendly.
+An Automator workflow and Finder service for renaming files so they’re web-friendly.
 
 ## What Does it Do?
 
-- Replaces spaces with dashes
-- Replaces underscores (_) with dashes
-- Replaces ampersands (&) with dashes
-- Replaces pound signs (#) with dashes
-- Replaces the common string of ’ - ’ with a single dash
+- Replaces spaces with a dash
+- Replaces underscores (_) with a dash
+- Replaces ampersands (&) with a dash
+- Replaces pound signs (#) with a dash
+- Replaces the common string of ’ - ’ with a dash
 
-These swap-outs are what work for me, but I highly encourage you to pop open the workflow in Automator and adjust to your needs.
+These swap-outs are what work for me, but I highly encourage you to open the workflow in Automator and adjust to your needs.
 
 ## Installation
 
-To install as a Finder Service, simply double-click ‘Rename for Web - Finder Service’ and choose **Install**.
+To install as a Finder Service, double-click ‘Rename for Web - Finder Service’ and choose **Install**.
 
 Run the workflow by right clicking a file(s) and choosing **Rename for Web** under **Services**.
 
